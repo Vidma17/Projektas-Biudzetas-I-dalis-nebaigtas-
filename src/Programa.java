@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class Programa {
-    public void pajamosMetodas (){ // Metodas
-        System.out.println("Įveskite pajamas:");
+    public void pajamosMetodas (){ // Metodas1
+        System.out.println("\n" + "Įveskite pajamas:");
 
         Scanner scanner = new Scanner(System.in);
         String pajamos = scanner.nextLine();
 
-        System.out.println("Sveiki, įvedėte pajamas: " + pajamos);
+        System.out.println("Jūsų įvestos pajamos: " + pajamos + "\n");
     }
 
     public void islaidosMetodas (){ // Metodas
@@ -16,6 +16,6 @@ public class Programa {
         Scanner scanner = new Scanner(System.in);
         String islaidos = scanner.nextLine();
 
-        System.out.println("Sveiki, įvedėte išlaidas: " + islaidos);
+        System.out.println("Jūsų įvestos išlaidos: " + islaidos);
     }
 }
